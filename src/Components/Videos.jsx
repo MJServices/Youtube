@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Videos = () => {
-    const [videos, setvideos] = useState(["https://i.ytimg.com/vi/qG9EvNQbPio/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA9lS3Y5QroarVTT8-lSlmfJigFDg","https://i.ytimg.com/vi/TXg5lyu_jCk/mqdefault.jpg?sqp=-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDe09nz4cLMaHHyWnpZ0F32vk_EtA", "https://i.ytimg.com/vi/Z4BTGjJRDB4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC26bUbYVyh3NeD_wuFxNo3j0asbA"])
+    const [videos, setvideos] = useState(["https://i.ytimg.com/vi/qG9EvNQbPio/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA9lS3Y5QroarVTT8-lSlmfJigFDg","https://i.ytimg.com/vi/DCNa5IY4l_U/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_VBAwX-TyxW3N0LiqrFEr9xmurQ", "https://i.ytimg.com/vi/Z4BTGjJRDB4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC26bUbYVyh3NeD_wuFxNo3j0asbA"])
   return (
     <div className='absolute top-[12vh] z-10 lg:left-[6vw]'>
         {videos.map((e, i)=>{
